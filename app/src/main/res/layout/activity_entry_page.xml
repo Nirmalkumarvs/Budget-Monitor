@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntryPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnadd_id"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="40dp"
+            android:text="ADD EXPENDITURE" />
+
+        <Button
+            android:id="@+id/btnlist_id"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="40dp"
+            android:text="Detailed expenditure" />
+
+        <Button
+            android:id="@+id/btngraph_id"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="40dp"
+            android:text="GRAPH VIEW" />
+
+        <Button
+            android:id="@+id/btndellast_id"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="40dp"
+            android:text="Delete previous data" />
+
+        <Button
+            android:id="@+id/btnupdatesalary_id"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="204dp"
+            android:text="update income" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
